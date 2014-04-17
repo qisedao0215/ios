@@ -1,0 +1,279 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CC970ED518D7DD6F00C96D56 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC970ED418D7DD6F00C96D56 /* Foundation.framework */; };
+		CC970ED818D7DD6F00C96D56 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CC970ED718D7DD6F00C96D56 /* main.m */; };
+		CC970EDC18D7DD6F00C96D56 /* NumberConverWithCato.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = CC970EDB18D7DD6F00C96D56 /* NumberConverWithCato.1 */; };
+		CC970EED18D7DE0200C96D56 /* NSString+NumberConvenience.m in Sources */ = {isa = PBXBuildFile; fileRef = CC970EEC18D7DE0200C96D56 /* NSString+NumberConvenience.m */; };
+		CC970EF018D7EC6C00C96D56 /* Tire.m in Sources */ = {isa = PBXBuildFile; fileRef = CC970EEF18D7EC6C00C96D56 /* Tire.m */; };
+		CC970EF318D7ECA300C96D56 /* Tire+Test.m in Sources */ = {isa = PBXBuildFile; fileRef = CC970EF218D7ECA300C96D56 /* Tire+Test.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CC970ECF18D7DD6F00C96D56 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				CC970EDC18D7DD6F00C96D56 /* NumberConverWithCato.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		CC970ED118D7DD6F00C96D56 /* NumberConverWithCato */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = NumberConverWithCato; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC970ED418D7DD6F00C96D56 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CC970ED718D7DD6F00C96D56 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CC970EDA18D7DD6F00C96D56 /* NumberConverWithCato-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NumberConverWithCato-Prefix.pch"; sourceTree = "<group>"; };
+		CC970EDB18D7DD6F00C96D56 /* NumberConverWithCato.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = NumberConverWithCato.1; sourceTree = "<group>"; };
+		CC970EEB18D7DE0200C96D56 /* NSString+NumberConvenience.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+NumberConvenience.h"; sourceTree = "<group>"; };
+		CC970EEC18D7DE0200C96D56 /* NSString+NumberConvenience.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+NumberConvenience.m"; sourceTree = "<group>"; };
+		CC970EEE18D7EC6C00C96D56 /* Tire.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tire.h; sourceTree = "<group>"; };
+		CC970EEF18D7EC6C00C96D56 /* Tire.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tire.m; sourceTree = "<group>"; };
+		CC970EF118D7ECA300C96D56 /* Tire+Test.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Tire+Test.h"; sourceTree = "<group>"; };
+		CC970EF218D7ECA300C96D56 /* Tire+Test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Tire+Test.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CC970ECE18D7DD6F00C96D56 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC970ED518D7DD6F00C96D56 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CC970EC818D7DD6F00C96D56 = {
+			isa = PBXGroup;
+			children = (
+				CC970ED618D7DD6F00C96D56 /* NumberConverWithCato */,
+				CC970ED318D7DD6F00C96D56 /* Frameworks */,
+				CC970ED218D7DD6F00C96D56 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CC970ED218D7DD6F00C96D56 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CC970ED118D7DD6F00C96D56 /* NumberConverWithCato */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CC970ED318D7DD6F00C96D56 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CC970ED418D7DD6F00C96D56 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CC970ED618D7DD6F00C96D56 /* NumberConverWithCato */ = {
+			isa = PBXGroup;
+			children = (
+				CC970ED718D7DD6F00C96D56 /* main.m */,
+				CC970EEE18D7EC6C00C96D56 /* Tire.h */,
+				CC970EEF18D7EC6C00C96D56 /* Tire.m */,
+				CC970EF118D7ECA300C96D56 /* Tire+Test.h */,
+				CC970EF218D7ECA300C96D56 /* Tire+Test.m */,
+				CC970EEB18D7DE0200C96D56 /* NSString+NumberConvenience.h */,
+				CC970EEC18D7DE0200C96D56 /* NSString+NumberConvenience.m */,
+				CC970EDB18D7DD6F00C96D56 /* NumberConverWithCato.1 */,
+				CC970ED918D7DD6F00C96D56 /* Supporting Files */,
+			);
+			path = NumberConverWithCato;
+			sourceTree = "<group>";
+		};
+		CC970ED918D7DD6F00C96D56 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CC970EDA18D7DD6F00C96D56 /* NumberConverWithCato-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CC970ED018D7DD6F00C96D56 /* NumberConverWithCato */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC970EDF18D7DD6F00C96D56 /* Build configuration list for PBXNativeTarget "NumberConverWithCato" */;
+			buildPhases = (
+				CC970ECD18D7DD6F00C96D56 /* Sources */,
+				CC970ECE18D7DD6F00C96D56 /* Frameworks */,
+				CC970ECF18D7DD6F00C96D56 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NumberConverWithCato;
+			productName = NumberConverWithCato;
+			productReference = CC970ED118D7DD6F00C96D56 /* NumberConverWithCato */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CC970EC918D7DD6F00C96D56 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "河南青云信息技术有限公司";
+			};
+			buildConfigurationList = CC970ECC18D7DD6F00C96D56 /* Build configuration list for PBXProject "NumberConverWithCato" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CC970EC818D7DD6F00C96D56;
+			productRefGroup = CC970ED218D7DD6F00C96D56 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CC970ED018D7DD6F00C96D56 /* NumberConverWithCato */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CC970ECD18D7DD6F00C96D56 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC970EED18D7DE0200C96D56 /* NSString+NumberConvenience.m in Sources */,
+				CC970EF318D7ECA300C96D56 /* Tire+Test.m in Sources */,
+				CC970EF018D7EC6C00C96D56 /* Tire.m in Sources */,
+				CC970ED818D7DD6F00C96D56 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		CC970EDD18D7DD6F00C96D56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		CC970EDE18D7DD6F00C96D56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		CC970EE018D7DD6F00C96D56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NumberConverWithCato/NumberConverWithCato-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CC970EE118D7DD6F00C96D56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NumberConverWithCato/NumberConverWithCato-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CC970ECC18D7DD6F00C96D56 /* Build configuration list for PBXProject "NumberConverWithCato" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC970EDD18D7DD6F00C96D56 /* Debug */,
+				CC970EDE18D7DD6F00C96D56 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC970EDF18D7DD6F00C96D56 /* Build configuration list for PBXNativeTarget "NumberConverWithCato" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC970EE018D7DD6F00C96D56 /* Debug */,
+				CC970EE118D7DD6F00C96D56 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CC970EC918D7DD6F00C96D56 /* Project object */;
+}
